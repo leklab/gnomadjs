@@ -55,7 +55,7 @@ export default () => (
     </HeadingContainer>
 
     <p>
-    PCGC place holder text
+    The Pediatric Cardiac Genomics Consortium (PCGC) is a group of clinical research teams, collaborating to identify genetic causes of human congenital heart disease and to relate genetic variants present in the congenital heart disease patient population to clinical outcomes.
     </p>
   </HomePage>
 )
