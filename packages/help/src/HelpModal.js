@@ -171,7 +171,7 @@ const HelpModal = ({
     <Modal
       footer={footer}
       size="large"
-      title="gnomAD help"
+      title="PCGC help"
       onRequestClose={() => {
         toggleHelpWindow()
       }}

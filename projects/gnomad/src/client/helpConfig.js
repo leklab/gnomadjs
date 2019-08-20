@@ -1,3 +1,3 @@
 module.exports = {
-  directory: '../../gnomad-docs/docs',
+  directory: '../../pcgc-docs/docs',
 }
