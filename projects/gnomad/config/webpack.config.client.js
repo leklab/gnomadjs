@@ -53,7 +53,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, '../dist/public'),
     publicPath: '/',
-    filename: isDev ? '[name].js' : '[name]-[contenthash].js',
+    filename: isDev ? '[name].js' : '[name]-[hash].js',
   },
   plugins: [
     new webpack.DefinePlugin(definitions),

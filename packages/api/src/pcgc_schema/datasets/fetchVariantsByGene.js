@@ -164,9 +164,11 @@ const fetchVariantsByGene = async (ctx, geneId, canonicalTranscriptId, subset) =
   }
   `
   //request("http://gnomad.broadinstitute.org/api", query).then(console.log).catch(console.error)
+  //console.log("In here 33")
+  //const gnomad_data = request("http://gnomad.broadinstitute.org/api", query).then(console.log).catch(console.error)
 
-  const gnomad_data = await request("http://gnomad.broadinstitute.org/api", query)
-  //console.log(gnomad_data.gene.variants)
+  const gnomad_data = await request("https://gnomad.broadinstitute.org/api", query)
+  console.log(gnomad_data.gene.variants)
 
   const combinedVariants = mergePcgcAndGnomadVariantSummaries(exomeVariants,gnomad_data.gene.variants)
   //const combinedVariants = mergeExomeAndGenomeVariantSummaries(exomeVariants, genomeVariants)
